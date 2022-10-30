@@ -8,4 +8,13 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    odd_len = ""
+    if len(s1) % 2 != 0:
+        odd_len = f"[" + odd_len + s1 + "]"
+    elif len(s2) % 2 != 0:
+        odd_len = f"[" + odd_len + s2 + "]"
+    elif len(s3) % 2 != 0:
+        odd_len = f"[" + odd_len + s3 + "]"
+    else:
+        odd_len = []
+    return odd_len
