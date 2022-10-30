@@ -6,4 +6,7 @@ def main(s):
     Returns:
         string
     """
-    return
+    if len(s) > 0:
+        return len(s) * "*"
+    else:
+        return None
